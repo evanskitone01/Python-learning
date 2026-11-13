@@ -76,3 +76,32 @@ student = {
 print(student["name"])
 print(student["age"])
 print(age + student["age"] + ratio)
+def greet(name, age):
+    print("Hello, " + name + "! You are " + str(age) + " years old.")
+greet("Evans", 20)      
+def okay(height, width):
+    print(width > height)
+okay(5, 10)
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are under 18.")
+    print("You are a minor.")
+create = input("Do you want to create an account? (yes/no): ")
+if create.lower() == "yes":
+    print("Account creation process initiated.")
+else:
+    print("Account creation canceled.")
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    print("Hello, " + name + "! You are " + str(age) + " years old.")
+getting_started = input("Do you want to get started with coding? (yes/no): ")
+if getting_started.lower() == "yes":
+    print("Great! Let's start coding.")
+def answer(answer):
+    answer = input("What is your answer? ")
+    print("Your answer is: " + answer)
+    find = input("Do you want to find something? (yes/no): ")
+    if find.lower() == "yes":
+        query = input("What do you want to find? ")
+        print("Searching for: " + query)
